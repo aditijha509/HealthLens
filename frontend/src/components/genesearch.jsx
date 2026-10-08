@@ -20,7 +20,7 @@ const GeneSearch = () => {
 
   return (
     <div className='flex h-screen bg-blue-200 w-full'>
-      <div className='flex bg-cover w-1/2' style={{ backgroundImage: `url(${image})` }} ><div><h1 className='bg-red-100'>FOUR LETTERS</h1><h2>ONE YOU</h2></div></div>
+      <div className='flex justify-start text-5xl items-center bg-cover w-1/2' style={{ backgroundImage: `url(${image})` }} ><div><h1 className='bg-red-100'>FOUR LETTERS</h1><h2>ONE YOU</h2></div></div>
       <div className='flex w-1/2'>
       <input onChange={input} placeholder='Enter gene name'/>
       <button onClick={btn}>Search</button>
